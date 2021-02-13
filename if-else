@@ -1,0 +1,6 @@
+
+var age=("Please enter your age!");
+if(age>=40){
+document.write("You are eligible!");
+}else{
+document.write("Not eligible!");
