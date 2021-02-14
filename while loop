@@ -1,0 +1,7 @@
+var number1 = 8;
+            do
+            {
+                document.write(number1);
+                document.write("<br/>");
+                number1++;
+            } while ( number1 <=10);
