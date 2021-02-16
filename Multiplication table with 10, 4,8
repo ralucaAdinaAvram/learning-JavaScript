@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+/* ========     Multiplication table with 10      ===== */
+
+
+var a = 10;
+var b;
+
+ for (var i=1; i<=10; i++){
+     b= a * i;
+     document.write("<br />");
+     document.write(" " +a+ "*" +i+ "=",b);
+ }
+ 
+ document.write("<br />");
+
+
+ /* ========     Multiplication table with 4      ===== */
+
+
+var c= 4;
+ var y;
+
+ for ( var i=1; i<=10; i++){
+     y= c*i;
+     document.write("<br/>");
+     document.write(" " +c+ "*" +i+ "=",y)
+ }
+
+ document.write("<br/>");
+
+ /* ========     Multiplication table with 8      ===== */
+ var m = 8;
+ var k;
+
+ for (var i=1; i<=10; i++){
+     k= m* i;
+     document.write("<br/>");
+     document.write( " " +m+ "*" +i+ "=",k)
+ }
+   /*  */
+
+
+
+    </script>
+    
+</body>
+</html>
