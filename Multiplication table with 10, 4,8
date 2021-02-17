@@ -25,6 +25,7 @@ var b;
 
 
  /* ========     Multiplication table with 4      ===== */
+ 
 
 
 var c= 4;
