@@ -1,0 +1,98 @@
+
+        // Topic : containers - const
+        // ==========================
+
+            // const n = "JS";
+            // document.write(n);
+
+            // n = "JavaScript"; // you can not re-assign value to const
+            // document.write(n);
+
+            // var n = "JS";
+            // document.write(n);
+
+            // n = "JavaScript"; 
+            // document.write(n);
+
+        // -------------------------------------------------------------------------
+
+
+        // Topic : Arrays
+        // ======================
+
+            // const x = "js"; // string
+            // // document.write(x);
+            // const y = 5 ; // number
+            // const z = true ; // boolean
+
+            // const a =  ["a", "b", "c", 5, "d", true, "othervalue"];  // array
+            // document.write(a[5]);
+            // document.write("<br />");
+            // document.write(a[3]);
+
+            // const y = [ "xyz", 25, "football"]
+            // y[0];
+
+        // -------------------------------------------------------------------------
+        
+
+        // Topic : Object
+        // ======================
+
+            // const x = {}; // object
+            // In objects we have key-value pairs
+
+            // const y = { 
+            //     "name": "xyz", 
+            //     "age": 25, 
+            //     "game": "football"
+            // }
+
+            // document.write(y.name);
+
+        // -------------------------------------------------------------------------
+
+        
+        // Topic : Functions
+        // ======================
+
+        //  why ?
+
+        
+        // Function's delecration
+        function print(x) {
+        
+            // Function's defination
+            document.write(x);
+        }
+
+
+        // function calling
+        // print("Hi, I am here!!!!"); // function's parameter
+        // print("<br />");
+        // print("Yes, it is good");
+        // print("<br />");
+        // print("this is function ");
+        // print("<br />");
+
+        // function return
+
+
+
+        function sum(a, b) {
+            document.write(" Number 1 : ")
+            document.write(a)
+            document.write(" <br />")
+
+            document.write(" Number 2 : ")
+            document.write(b)
+            document.write(" <br />")
+
+            document.write(" Sum of no.1 and no.2 : ")
+            var c = a + b;
+            document.write(c)
+            document.write(" <br />")
+        }
+
+        sum(2, 5)
+        sum(4, 6)
