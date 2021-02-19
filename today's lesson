@@ -1,0 +1,60 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Multiplication Table</title>
+</head>
+<body>
+   
+
+
+
+//===============     do/while loop    ======================
+
+/*   */
+ var number2 =0;
+ do{
+     
+     document.write("8")
+    document.write(" x ");
+    document.write(number2);
+    document.write(" = ");
+    document.write(8 * number2);
+    document.write("<br/>");
+
+
+    number2++;
+} while (number2<=10);
+
+
+
+//=======   while loop   ========
+
+/*   
+var number1= 0;
+while (number1 <=10){
+    document.write("2")
+    document.write(" x ");
+    document.write(number1);
+    document.write(" = ");
+    document.write(2 * number1);
+    document.write("<br/>");
+    number1++;
+}
+*/
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
