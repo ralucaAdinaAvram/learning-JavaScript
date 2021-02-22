@@ -1,0 +1,73 @@
+Code a function named askName that prompts the user to " Enter name " and assign the asnwer to userName, which hasn't been declared beforehead
+====solution====
+function askName(){
+var userName= prompt("Enter name");
+}
+
+
+
+Code a function that concatenates string1 and string2 and assigns the result to a variable that hasn't been declared beforehead.
+====solution====
+function addingUp(){
+var adding= string1 + string2;}
+
+
+
+
+Code a function that calls itself
+====solution====
+function endless (){
+endless();
+}
+
+
+Code a function that calls 2 other functions 
+====solution====
+function callAFunction()
+{
+doSomething();
+doSomethingElse();
+}
+
+
+Code  a function named getName that displays a prompt that says "Enter name" and assigns the answer to userName, which hasn't been declared beforehead
+====solution====
+function getName(){
+var userName=
+prompt("Enter name ");
+}
+
+
+Code a function that concatenates string1 and string2 and assigns the result to a variable that hasn't been declared befoehand
+====solution==== 
+function conCat() {
+var adding= string1 + string2;
+}
+
+
+
+Code a function that displays an alert, "Hello world". Call the function. 
+====solution====
+function greet() {
+  alert("Hello world");
+}
+
+
+
+
+Code a function that displays a prompt, "Enter name " and then displays the name in an alert.Call the function.
+====solution====
+function askAndPlayback() {
+  var userName = prompt("Enter name");
+  alert(userName);
+}
+askAndPlayback();
+greet();
+
+
+
+
+
+
+
+
