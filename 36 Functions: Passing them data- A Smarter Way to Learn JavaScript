@@ -1,0 +1,128 @@
+!  When there are multiple arguments and parameters, the arguments and parameters are matched up by their order
+
+
+=======   Exercise 1     ======= 
+Code the first line of a function named concat that has 3 parameters, the first three letters of the alphabet.
+=======    Solution     ========
+function concat (a,b,c) {
+
+
+
+
+=======   Exercise 2     ======= 
+Code a function that takes a variable, a string, and a number as arguments
+=======    Solution     ========
+makeAddress (city, "Two", 3);
+
+
+=======   Exercise 3     ======= 
+Code the first line of a function that has 2 parameters
+=======    Solution     ========
+function combineNames( firstName, lastName){
+
+
+
+=======   Exercise 4     ======= 
+Code a function that has 2 parameters. Concatenate them and assign the result to a variable that hasn't been declared beforehand.
+=======    Solution     ========
+function concat( string1, string2) {
+var combo= string1 + string2;
+}
+
+
+=======   Exercise  5    ======= 
+Code a function that has three parameters. Multiply them and assign them to a variable that hasn't been declared yet.
+=======    Solution     ========
+function mult(a,b,c){
+var num = a * b* c;
+}
+
+
+
+=======   Exercise 6     ======= 
+Code a call to x, with the first three letters of teh alphabet being variables that serve as arguments.
+=======    Solution     ========
+x(a, b, c);
+
+
+
+
+=======   Exercise 7      ======= 
+Code the first line of a function that has 3 parameters.
+On the next line code the statement that calls the function, with 3 different variables used as arguments.
+(For example, if the parameters are a, b, and c, the arguments might be d, e, and f.) Don't indent the second line.
+=======    Solution     ========
+function do Something(a, b, c){
+doSomething(d, e, f);
+
+
+
+=======   Exercise  8    ======= 
+Code a function with 1 parameter that does nothing, and call it, specifying a variable as the argument.
+=======    Solution     ========
+function doNothing(param1) {
+}
+doNothing(arg1);
+
+
+
+
+=======   Exercise 9     ======= 
+Code a function that has three parameters. Multiply them and assign them to a variable that hasn't been declared yet.
+=======    Solution     ========
+function mult(a, b, c) {
+  var num = a * b * c;
+}
+
+
+
+=======   Exercise 10     ======= 
+I've coded the call to the function that displays the alert. Code the function. Leave my code as-is. 
+var part1 = "The medium ";
+var part2 = "is the message.";
+displayIdiom(part1, part2);
+=======    Solution     ========
+var part1 = "The medium ";
+var part2 = "is the message.";
+displayIdiom(part1, part2);
+function displayIdiom(part1, part2) {alert (part1 + part2);
+}
+
+
+
+
+=======   Exercise 11     ======= 
+Code a function with 2 number parameters. Sum them and assign the sum to a variable. 
+The function displays an alert concatenating "The sum is " with the variable. Code the function call.
+=======    Solution     ========
+function numTot(num2, num4) {
+var sum2 = num2 + num4;
+alert( "The sum is " + sum2);
+}
+numTot(2, 4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
