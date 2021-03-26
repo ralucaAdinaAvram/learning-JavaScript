@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Control Structures</title>
+
+    <input type="number" id="first" class="first" name="first"  placeholder="Please Enter First Number" />
+    <input type="number" id="second" class="second" name="second" placeholder="Please Enter Second Number" />
+
+    <button type="button" onclick=getAnswer()> Answer </button>
+
+
+    <br />
+    <p> Sum of your two numbers = <span id="answer"> </span> </p> 
+
+</head>
+<body>
+    <!-- Arrow Functions -->
+
+    <script>
+
+        const x = "^[A-Z]{1,10}$";
+
+        // HTML, CSS-Bootstrap, JS 
+
+        // 2010 - purpose
+        // 2020 - 
+
+        // ES4, 
+
+        function sum(a, b) {
+            var c = a + b;
+            return c;
+        }
+
+        function mul(a, b) {
+            var c = a * b;
+            return c;
+        }
+
+        function div(a, b) {
+            var c = a / b;
+            return c;
+        }
+
+        function sub(a, b) {
+            var c = a - b;
+            return c;
+        }
+
+
+        const nameOfTheFunction = (a, b) => {
+            var c = a + b;
+            return c;
+        };
+
+        const sum = (a, b) => a + b;
+        const mul = (a, b) => a * b;
+        const div = (a, b) => a / b;
+        const sub = (a, b) => a - b;
+
+    </script>
+
+
+
+
+   <!--  <script>
+
+        function sum(a, b) {
+            var c = a + b;
+            return c;
+        }
+
+        function getAnswer() {
+            // 1. Fetch the value of Number 1 and Number 2
+            // 2. We need to sum those two numbers 
+            // 3. we want to print the answer of sum on site. 
+
+            var firstNumber = window.document.getElementById("first").value;
+            var secondNumber = window.document.getElementById("second").value;
+
+            var a = parseInt(firstNumber);
+            var b = parseInt(secondNumber);
+
+            var answer = sum(a, b);
+
+            document.getElementById("answer").innerHTML = answer;
+        }
+
+    </script> -->
+
+
+
+
+<!--
+
+    // completed
+    // --------------------
+    // controlled structure
+    // if-else
+    // if-elseif-else
+    // switch
+    // iteration 
+    // Loops - for-while-do-while 
+    // map() 
+    // containers - var, let, const 
+    // objects and arrays 
+    // functions 
+        // return;
+    // events 
+
+
+
+    // in progress
+    // ----------------------
+    // arrow functions 
+    // regex - regular expressions
+
+
+    // pending 
+    // ---------------------
+    
+    
+    // classes 
+
+
+-->
+    <script>
+        // var a = 10;
+
+        // var age = prompt("Please enter your age!!");
+
+        // if(age >= 40) { 
+        //     document.write("Yes, you are eligiable job"); 
+        // } else {
+        //     document.write("No, you are not eligiable for this job"); 
+        // }
+
+        // marks <= 20  : c
+        // marks >= 80  : A+
+
+
+        //  AND Operator -  
+
+        // var marks = prompt("Please enter your marks!!");
+
+        // if(marks <= 20 & marks > 10) { 
+        //     document.write("You Grage is: C"); 
+        // } else if(marks >= 80 & marks <= 100) {
+        //     document.write("Your Grade is: A+"); 
+        // } else if(marks <= 10) {
+        //     document.write("Your Grade is: F"); 
+        // } else if(marks > 100) {
+        //     document.write("This is wrong value"); 
+        // } else {
+        //     document.write("Your Grade is: B"); 
+        // }
+
+        // OR Operator
+        // var fruit = prompt("Do you have ??");
+        // // Apple or Grapes
+
+        // if(fruit == 'Apple' || fruit == 'Grapes') {
+        //     document.write("Yes, we have you are welcome!!"); 
+        // } else {
+        //     document.write("Sorry, We don't have"); 
+        // }
+
+        // Not Operator
+        
+        // var time = prompt("Sheeraz!!! You have time");
+        
+        // if(time != 'Yes') {
+        //     document.write("Yes, I have"); 
+        // } else {
+        //     document.write("No, Not have"); 
+        // }
+
+        // var age = prompt("Your age");
+        // if(age != 35) {
+        //     document.write("Not eligiable"); 
+        // } else {
+        //     document.write("Yes allowed"); 
+        // }
+
+        // multiple condition
+        // if(condition1 & condition2 & condition4 ....) { 
+        //     // true
+        // } else {
+        //     // false
+        // }
+
+        // var age     = prompt("Your age please");
+        // var degree  = prompt("What degree you have");
+
+        // if (age > 20 & (degree == 'CS' || degree == 'Arts')) {
+        //     document.write("You can learn programming "); 
+        // } else {
+        //     document.write("Not"); 
+        // }
+
+
+        // if (condition) {
+        //     // true 
+        // }
+
+
+        // var marks = prompt("Please enter your marks!!");
+        // string
+        // 10  != "10"
+
+        // switch (marks) {
+        //     case "10":
+        //         document.write("Entered value is 10"); 
+        //         break;
+            
+        //     case "20":
+        //         document.write("Entered value is 20"); 
+        //         break;
+
+        //     default:
+        //         document.write("Value is not 10 or not 20"); 
+        //         break;
+        // }
+
+
+            // var number = 2;
+            // number = number + 1;
+
+            // number++
+
+
+
+
+
+
+
+        // Topic: Iteration
+        // ----------------------
+
+        // 0 ... 100
+
+        // var number = 0;
+        // document.write(number);   // 0
+        // document.write("<br />"); 
+        
+        // number = number+1;
+        // document.write(number);  // 1
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+        // number = number+1;
+        // document.write(number); 
+        // document.write("<br />"); 
+
+
+        // Topic: Loop
+        // for
+
+        // assignment:: tables 5, 
+        // 5 x 1 = 5
+        // 5 x 2 = 10
+        // 5 x 3 = 15
+        // .....
+
+        // for(var number = 0; number <= 10; number++) {
+        //     document.write(number);
+        //     document.write("<br />"); 
+        // }
+
+        // document.write("------------------------- while ----------------------- <br />");
+
+        // while - type of loop
+        // assignment:: tables 8
+
+        // var number2 = 0;
+        // while (number2 <= 10) {
+        //     document.write(number2);
+        //     document.write("<br />"); 
+
+        //     number2++;
+        // }
+
+        // document.write("------------------------- do - while ----------------------- <br />");
+
+
+        // do-while - type of loop
+        // assignment:: tables 10
+        
+        // var number3 = 0;
+        // do {
+        //     document.write(number3);
+        //     document.write("<br />"); 
+
+        //     number3++;
+        // } while (number3 <= 10);
+
+
+        // var data = [1, 2, 3, 4, 5, 6, 7];
+        
+        // [] - array   e.g : [1, 2, 3, 4, 5, 6];
+        // {} - object  e.g : { name: "adina", class: "programming" }
+        // [{}] - combination of array and object e.g
+        
+        // var products = [ 
+        //     { 
+        //         image: "image.jpg", 
+        //         title: "new shirt",
+        //         price: "270" 
+        //     }, 
+        //     { 
+        //         image: "image2.jpg", 
+        //         title: "new pent",
+        //         price: "320" 
+        //     }, 
+        //     { 
+        //         image: "image.jpg", 
+        //         title: "chain",
+        //         price: "500" 
+        //     }, 
+        // ]
+
+        // data-structure - received - API - from - PHP - database
+
+        // products.map( (x) => {
+        //     document.write(x.image);
+        //     document.write("<br />");
+        //     document.write(x.title);
+        //     document.write("<br />");
+        //     document.write(x.price);
+        //     document.write("<br />----------------<br />");
+        // });
+
+
+        // Topic : containers - const
+        // ==========================
+
+            // const n = "JS";
+            // document.write(n);
+
+            // n = "JavaScript"; // you can not re-assign value to const
+            // document.write(n);
+
+            // var n = "JS";
+            // document.write(n);
+
+            // n = "JavaScript"; 
+            // document.write(n);
+
+        // -------------------------------------------------------------------------
+
+
+        // Topic : Arrays
+        // ======================
+
+            // const x = "js"; // string
+            // // document.write(x);
+            // const y = 5 ; // number
+            // const z = true ; // boolean
+
+            // const a =  ["a", "b", "c", 5, "d", true, "othervalue"];  // array
+            // document.write(a[5]);
+            // document.write("<br />");
+            // document.write(a[3]);
+
+            // const y = [ "xyz", 25, "football"]
+            // y[0];
+
+        // -------------------------------------------------------------------------
+        
+
+        // Topic : Object
+        // ======================
+
+            // const x = {}; // object
+            // In objects we have key-value pairs
+
+            // const y = { 
+            //     "name": "xyz", 
+            //     "age": 25, 
+            //     "game": "football"
+            // }
+
+            // document.write(y.name);
+
+        // -------------------------------------------------------------------------
+
+        
+        // Topic : Functions
+        // ======================
+
+        //  why ?
+
+        
+        // Function's delecration
+        function print(x) {
+        
+            // Function's defination
+            document.write(x);
+        }
+
+
+        // function calling
+        // print("Hi, I am here!!!!"); // function's parameter
+        // print("<br />");
+        // print("Yes, it is good");
+        // print("<br />");
+        // print("this is function ");
+        // print("<br />");
+
+        // function return
+
+
+        // function sum(a, b) {
+        //     document.write(" Number 1 : ")
+        //     document.write(a)
+        //     document.write(" <br />")
+
+        //     document.write(" Number 2 : ")
+        //     document.write(b)
+        //     document.write(" <br />")
+
+        //     document.write(" Sum of no.1 and no.2 : ")
+        //     var c = a + b;
+        //     document.write(c)
+        //     document.write(" <br />")
+        // }
+
+        // sum(2, 5)
+        // sum(4, 6)
+
+
+        //  -----------------------------------------------
+
+
+
+        // Topic: Function Return
+        // =============================================
+
+        // function multiply(number1, number2) {
+        //     var answer = number1 * number2
+            
+        //     if(answer == 0) {
+        //         return "zero";
+
+        //     } else {
+        //         return answer;
+        //     }
+
+        // }
+
+
+        // var x = multiply(2, 5);
+        // document.write(x);
+
+        //     document.write(" <br />")
+        //     document.write(" Number 1 : ")
+        //     document.write(2)
+        //     document.write(" <br />")
+
+        //     document.write(" Number 2 : ")
+        //     document.write(5)
+        //     document.write(" <br />")
+
+
+        // var y = multiply(5, 5);
+        // document.write(" <br />")
+        // document.write(y)
+
+
+        //  -----------------------------------------------
+        // prompt("Please Enter Your Name!!");
+
+
+
+
+
+    </script>
+</body>
+</html>
+
