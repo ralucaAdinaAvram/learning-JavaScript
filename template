@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbarAndFooter</title>
+    <!--======== Styles Sheet                  ===========-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--====== End Styles Sheet ============================-->
+    <!--===============Scripts================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--===========End Scripts ===============-->
+</head>
+<body >
+    <header>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
